@@ -186,3 +186,15 @@ nav {
 .popup-menu ul li a:hover {
     color: #FFD700;
 }
+
+@media (max-width: 768px) {
+    .header {
+      flex-wrap: wrap; /* Allow items to wrap */
+      gap: 1rem; /* Add space between items */
+    }
+    
+    .logo {
+      max-width: 100px; /* Reduce logo size */
+      flex-shrink: 0; /* Prevent logo from shrinking */
+    }
+}
